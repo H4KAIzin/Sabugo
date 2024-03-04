@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j+P3eXTfirYyiy2LVS5z5B7m1k+1f3Gy6ThQrmzdJhALX0X5/R0NktBQiUxUTvHOPGekdokqW63arJh7FF2VoA==",
+  "dgSpecHash": "ubP0qEwYqGbkehV3BffM3yNQBgBQDGe/Jf4arpmCZPFwANLw9yv2WWi4NNv1bYNHrHY4g3xoLlaVkMMTYRytkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\Sabugo\\sabugo\\sabugo.csproj",
+  "projectFilePath": "C:\\Users\\Aluno\\Sabugo-1\\sabugo\\sabugo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0-rc.1.23419.4\\microsoft.extensions.configuration.8.0.0-rc.1.23419.4.nupkg.sha512",

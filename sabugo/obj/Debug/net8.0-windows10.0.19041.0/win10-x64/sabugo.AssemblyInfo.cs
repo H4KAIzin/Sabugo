@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sabugo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c037c0369af7cd637f96663b3898f1601a7dbe9a")]
 [assembly: System.Reflection.AssemblyProductAttribute("sabugo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sabugo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

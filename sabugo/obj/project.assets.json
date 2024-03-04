@@ -32826,11 +32826,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aluno\\Sabugo\\sabugo\\sabugo.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno\\Sabugo-1\\sabugo\\sabugo.csproj",
       "projectName": "sabugo",
-      "projectPath": "C:\\Users\\Aluno\\Sabugo\\sabugo\\sabugo.csproj",
+      "projectPath": "C:\\Users\\Aluno\\Sabugo-1\\sabugo\\sabugo.csproj",
       "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aluno\\Sabugo\\sabugo\\obj\\",
+      "outputPath": "C:\\Users\\Aluno\\Sabugo-1\\sabugo\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
