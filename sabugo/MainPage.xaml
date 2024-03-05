@@ -1,19 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="sabugo.MainPage">
+             x:Class="sabugo.MainPage"
+             Shell.NavBarIsVisible="False">
 
             <Grid>
-                <Grid.RowDefinition>
+                <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinition>
-            </Grid>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+                  <Image Source="libert.jpg"
+                  Grid.RowSpan="3"
+                  Aspect="AspectFill"/>  
 
             <!-- Tela de fundo -->
-            <Button Text="Iniciar"
-            Grid.Row="0"/>
+           
+           
+            
+                <Button Text="Iniciar"
+                Grid.Row="1"/>
+
+                <Button Text="Sobre"
+                Grid.Row="2"
+                Margin="50, 5"/>
+
+                <Button Text="Creditos"
+                Grid.Row="3"/>         
+            </Grid>
 
 </ContentPage>
