@@ -3,31 +3,62 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="sabugo.MainPage"
              Shell.NavBarIsVisible="False">
-
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="60"/>
-                    <RowDefinition Height="60"/>
-                    <RowDefinition Height="60"/>
-                </Grid.RowDefinitions>
+            <!--                                         tela de fundo                                             -->
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                    </Grid.RowDefinitions>
                   <Image Source="libert.jpg"
-                  Grid.RowSpan="3"
-                  Aspect="AspectFill"/>  
+                     Grid.RowSpan="4"
+                    Aspect="AspectFill"/>  
+            <!-- botao iniciar -->
+                    <Button Text="Iniciar"
+                        Clicked="ClicouBotaoIniciar"
+                        Grid.Row="1"
+                        Margin="10, 5"
+                        BackgroundColor="#B22222"
+                        FontSize="30"
+                        BorderColor="white"
+                        BorderWidth="1"
+                        FontFamily="JoabaoPintoMole"
+                        CornerRadius="20"/>
+            <!-- botao sobre -->
+                    <Button Text="Sobre"
+                        Clicked="ClicouBotaoSobre"
+                        Grid.Row="2"
+                        Margin="10, 5"
+                        BackgroundColor="#CD5C5C"
+                        FontSize="30"
+                        BorderColor="white"
+                        BorderWidth="1"
+                        FontFamily="JoabaoPintoMole"
+                        CornerRadius="20"/>
+            <!-- botao creditos -->
+                    <Button Text="Creditos"
+                        Clicked="ClicouBotaoCreditos"
+                        Grid.Row="3"
+                        Margin="10, 5"
+                        BackgroundColor="#CD5C5C"
+                        FontSize="30"
+                        BorderColor="white"
+                        BorderWidth="1"
+                        FontFamily="JoabaoPintoMole"
+                        CornerRadius="20"/>               
+                </Grid>
+                <!-- frame -->
 
-            <!-- Tela de fundo -->
-           
-           
-            
-                <Button Text="Iniciar"
-                Grid.Row="1"/>
+                <Frame x:Name="framinho"
+                    IsVisible="false"
+                    Margin="15, 20"
+                    CornerRadius="18"
+                    BackgroundColor="#2F4F4F"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Fill">
 
-                <Button Text="Sobre"
-                Grid.Row="2"
-                Margin="50, 5"/>
+                        
 
-                <Button Text="Creditos"
-                Grid.Row="3"/>         
-            </Grid>
 
 </ContentPage>
