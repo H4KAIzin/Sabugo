@@ -47,18 +47,101 @@
                         BorderWidth="1"
                         FontFamily="JoabaoPintoMole"
                         CornerRadius="20"/>               
-                </Grid>
+
                 <!-- frame -->
 
                 <Frame x:Name="framinho"
                     IsVisible="false"
                     Margin="15, 20"
                     CornerRadius="18"
-                    BackgroundColor="#2F4F4F"
+                    BackgroundColor="#778899"
                     HorizontalOptions="Fill"
-                    VerticalOptions="Fill">
+                    VerticalOptions="Fill"
+                    Grid.RowSpan="4">
 
-                        
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="110"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="sobre"
+                        TextColor="White"
+                        Margin="20"
+                        FontSize="40"
+                        FontFamily="JoabaoPintoMole"
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="Center"
+                        Grid.Row="0"/>
+
+                    <Label Text="Olá, seja bem vindo ao nosso jogo A Libertação de Averdell, um jogo criado por um trabalho escolar.
+                                    O jogo é de slides de páginas contendo apenas histórias e escolhas através de botões."
+                            TextColor="white"
+                            Margin="20"
+                            Grid.Row="1"
+                            FontSize="20"
+                            HorizontalTextAlignment="Center"/>
+
+
+                <Button Text="voltar"
+                    Clicked="ClicouBotaoVoltar"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    BackgroundColor="#b2614d"
+                    TextColor="White"
+                    Margin="0,0,0,10"
+                    FontSize="25"
+                    FontFamily="JoabaoPintoMole"
+                    Grid.Row="2"/>
+                </Grid>
+                </Frame>
+
+                <Frame x:Name="framinho2"
+                    IsVisible="false"
+                    Margin="15, 20"
+                    CornerRadius="18"
+                    BackgroundColor="#778899"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Fill"
+                    Grid.RowSpan="4">
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="110"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="Creditos"
+                        TextColor="White"
+                        Margin="20"
+                        FontSize="40"
+                        FontFamily="JoabaoPintoMole"
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="Center"
+                        Grid.Row="0"/>
+
+                    <Label Text="Muito obrigado por jogar! Este jogo foi desenvolvido pelos estudantes: Lucas Vinícius e Caio Matheus"
+                            TextColor="white"
+                            Margin="20"
+                            Grid.Row="1"
+                            FontSize="20"
+                            HorizontalTextAlignment="Center"/>
+
+
+                <Button Text="voltar"
+                    Clicked="ClicouBotaoVoltarDeNovo"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    BackgroundColor="#b2614d"
+                    TextColor="White"
+                    Margin="0,0,0,10"
+                    FontSize="25"
+                    FontFamily="JoabaoPintoMole"
+                    Grid.Row="2"/>
+                </Grid>
+                </Frame>
+
+                 </Grid>       
 
 
 </ContentPage>
