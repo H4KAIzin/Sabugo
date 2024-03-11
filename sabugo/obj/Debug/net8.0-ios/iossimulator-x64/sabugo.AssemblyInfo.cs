@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sabugo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+55751ee4edba182f131d174e2194898d876a0204")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+024ac7c4c666b827386748dd92483ffa11bccf6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("sabugo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sabugo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
