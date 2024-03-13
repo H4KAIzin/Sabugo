@@ -4,7 +4,47 @@
              x:Class="sabugo.GamePage"
              Shell.NavBarIsVisible="False">
     <Grid>
-    <Label Text="Sabugo"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>            
+        </Grid.RowDefinitions>
+
+        <Frame BackgroundColor="#87786f"
+           CornerRadius="20"
+           Margin="5,10"
+           VerticalOptions="Fill"
+           Grid.Row="0">
+            <Grid>
+                <Image Source="vasco.jpg"
+                    Aspect="AspectFill"
+                    Opacity="0,2"/> 
+      
+                <Label x:Name="labelTexto"
+                TextColor="White"
+                LineHeight="1.2"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Center"
+                FontSize="20"
+                FontFamily="JoabaoPintoMole"/>
+            </Grid>
+            
+        </Frame>
+
+
+        <Button x:Name="prox"
+            Clicked="botaoProx"
+            text="Proximo"
+            BackgroundColor="#B22222"
+            FontSize="30"
+            Grid.Row="1"
+            Margin="10,5"
+            BorderColor="white"
+            BorderWidth="1"
+            FontFamily="JoabaoPintoMole"/>
     </Grid>
 
 
