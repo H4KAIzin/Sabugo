@@ -8,8 +8,6 @@ public class cingaro
   public bool TemResposta = false; // Atributo para dizer se é um texto para contar a história ou se é preciso responder algo para continuar
   public string? TextoDaResposta01; // Texto do primeiro botão de resposta
   public string? TextoDaResposta02; // Texto do segundo botão de resposta
-  public string? TextoDaResposta03; // Texto do terceiro botão de resposta
   public int InfLevelResposta01; // Para qual Código do HistoryStep que o primeiro botão de respostas deve levar 
   public int InfLevelResposta02; // Para qual Código do HistoryStep que o segundo botão de respostas deve levar 
-  public int InfLevelResposta03; // Para qual Código do HistoryStep que o terceiro botão de respostas deve levar 
 }

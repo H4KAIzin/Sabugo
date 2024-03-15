@@ -20,7 +20,7 @@
             <Grid>
                 <Image Source="vasco.jpg"
                     Aspect="AspectFill"
-                    Opacity="0,2"/> 
+                    Opacity="0,1"/> 
       
                 <Label x:Name="labelTexto"
                 TextColor="White"
@@ -36,26 +36,38 @@
 
 
         <Button x:Name="prox"
-            Clicked="botaoProx"
-            text="Proximo"
-            BackgroundColor="#B22222"
-            FontSize="30"
-            Grid.Row="1"
-            Margin="10,5"
-            BorderColor="white"
-            BorderWidth="1"
-            FontFamily="JoabaoPintoMole"/>
+                Clicked="botaoProx"
+                text="Proximo"
+                BackgroundColor="#B22222"
+                FontSize="30"
+                Grid.Row="1"
+                Margin="10,5"
+                BorderColor="white"
+                BorderWidth="1"
+                FontFamily="JoabaoPintoMole"
+            T   extColor="Black"/>
+
+        <Button x:Name="um"
+                Clicked="BotaoUm"
+                BackgroundColor="#778899"
+                FontSize="30"
+                Grid.Row="2"
+                Margin="10,5"
+                BorderColor="white"
+                BorderWidth="1"
+                FontFamily="JoabaoPintoMole"
+                TextColor="Black"/>
+
+        <Button x:Name="dois"
+                Clicked="BotaoDois"
+                BackgroundColor="#778899"
+                Grid.Row="3"
+                FontSize="30"
+                Margin="10,5"
+                BorderColor="white"
+                BorderWidth="1"
+                FontFamily="JoabaoPintoMole"
+                TextColor="Black"/>
+
     </Grid>
-
-
-
-
-
-
-
-
-
-
-
-
 </ContentPage>
