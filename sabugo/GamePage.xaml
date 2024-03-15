@@ -9,7 +9,7 @@
             <RowDefinition Height="60"/>
             <RowDefinition Height="60"/>
             <RowDefinition Height="60"/>
-            <RowDefinition Height="60"/>            
+                   
         </Grid.RowDefinitions>
 
         <Frame BackgroundColor="#87786f"
@@ -18,10 +18,6 @@
            VerticalOptions="Fill"
            Grid.Row="0">
             <Grid>
-                <Image Source="vasco.jpg"
-                    Aspect="AspectFill"
-                    Opacity="0,1"/> 
-      
                 <Label x:Name="labelTexto"
                 TextColor="White"
                 LineHeight="1.2"
@@ -35,8 +31,8 @@
         </Frame>
 
 
-        <Button x:Name="prox"
-                Clicked="botaoProx"
+        <Button x:Name="BotaoProx"
+                Clicked="ClicouBotaoProx"
                 text="Proximo"
                 BackgroundColor="#B22222"
                 FontSize="30"
@@ -47,8 +43,8 @@
                 FontFamily="JoabaoPintoMole"
             T   extColor="Black"/>
 
-        <Button x:Name="um"
-                Clicked="BotaoUm"
+        <Button x:Name="BotaoUm"
+                Clicked="ClicouBotaoUm"
                 BackgroundColor="#778899"
                 FontSize="30"
                 Grid.Row="2"
@@ -58,8 +54,8 @@
                 FontFamily="JoabaoPintoMole"
                 TextColor="Black"/>
 
-        <Button x:Name="dois"
-                Clicked="BotaoDois"
+        <Button x:Name="BotaoDois"
+                Clicked="ClicouBotaoDois"
                 BackgroundColor="#778899"
                 Grid.Row="3"
                 FontSize="30"
