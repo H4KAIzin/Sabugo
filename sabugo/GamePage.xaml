@@ -33,7 +33,7 @@
 
         <Button x:Name="BotaoProx"
                 Clicked="ClicouBotaoProx"
-                text="Proximo"
+                Text="Proximo"
                 BackgroundColor="#B22222"
                 FontSize="30"
                 Grid.Row="1"
@@ -41,7 +41,7 @@
                 BorderColor="white"
                 BorderWidth="1"
                 FontFamily="JoabaoPintoMole"
-            T   extColor="Black"/>
+                TextColor="Black"/>
 
         <Button x:Name="BotaoUm"
                 Clicked="ClicouBotaoUm"

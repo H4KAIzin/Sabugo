@@ -35,7 +35,7 @@ List<cingaro> cigas = new List<cingaro>();
 	cigas.Add(new cingaro()
 	{
 	Inf = 2,
-	Textinho = "Damion apenas da um cochilo e acorda rapidamente atrás de pistas, ele sai do motel e procura por jornais espalhados nas paredes das casas e comércios, tudo parece normal até ele entrar em um beco, um homem suspeito aparece.\nHomem misterioso: Nunca te vi por estas bandas.\nDamion: Não sou daqui.\nHomem misterioso: O Império vai fazer você pagar impostos, vai ficar cada vez mais caro, se junte a nossa Revolução, este Império vai cair se as coisas continuarem assim.\nDamion não sabe o que fazer e apenas fala.\nDamion: Vou pensar.\nHomem misterioso: Quando você se decidir, vá até o centro de comércios e entre na loja de botânica, haverá um atendente, fale o código "2271" para ele.\nDamion sai do beco e vai a procura de comida, quando ele volta para seu quarto de motel ele lembra que Stuart lhe falou para não confiar no Império.",
+	Textinho = "Damion apenas da um cochilo e acorda rapidamente atrás de pistas, ele sai do motel e procura por jornais espalhados nas paredes das casas e comércios, tudo parece normal até ele entrar em um beco, um homem suspeito aparece.\nHomem misterioso: Nunca te vi por estas bandas.\nDamion: Não sou daqui.\nHomem misterioso: O Império vai fazer você pagar impostos, vai ficar cada vez mais caro, se junte a nossa Revolução, este Império vai cair se as coisas continuarem assim.\nDamion não sabe o que fazer e apenas fala.\nDamion: Vou pensar.\nHomem misterioso: Quando você se decidir, vá até o centro de comércios e entre na loja de botânica, haverá um atendente, fale o código '2271' para ele.\nDamion sai do beco e vai a procura de comida, quando ele volta para seu quarto de motel ele lembra que Stuart lhe falou para não confiar no Império.",
 	TemResposta=true,
     TextoDaResposta01="ir ao centro",
     TextoDaResposta02="Procurar pistas sozinho.",
@@ -67,10 +67,22 @@ List<cingaro> cigas = new List<cingaro>();
 	Inf = 4001,
 	Textinho = "Você não encontra nada.",
 	});
-
+		
+		Iniciar();
 }
 
 	//---------------------------------------------------------------------------------------------------------------//
+
+	void Iniciar()
+   {
+    	TrocaCingaroAtual(0);
+   }
+
+
+
+
+
+
 
 	void PreencherPagina()
   {
